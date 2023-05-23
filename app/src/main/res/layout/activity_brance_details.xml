@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backcolor"
+    tools:context="com.beraterdem2.tarifkupu2.view2.AddBranceActivity">
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="260dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button"
+        android:onClick="deleteData"
+        android:text="Sil"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addDataText"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        app:cardBackgroundColor="#D7DDE1"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="72dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toTopOf="@+id/yournameText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardPreventCornerOverlap="true"
+        app:cardCornerRadius="20dp"
+        >
+        <ImageView
+            android:id="@+id/addImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15sp"
+            android:contentDescription="@string/app_name"
+            android:onClick="selectImage"
+            android:src="@drawable/imageicon"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:background="@drawable/input"
+        android:id="@+id/yournameText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="80dp"
+        android:text="Yemeğin İsmi"
+        android:textStyle="bold"
+        android:padding="7dp"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/cookernameText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <TextView
+        android:textStyle="bold"
+        android:background="@drawable/input"
+        android:textColor="@color/white"
+        android:id="@+id/cookernameText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="80dp"
+        android:text="Kim Yaptı ?"
+        android:padding="7dp"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/addDataText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yournameText"></TextView>
+
+    <TextView
+        android:textStyle="bold"
+        android:background="@drawable/input"
+        android:textColor="@color/white"
+        android:id="@+id/addDataText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="80dp"
+        android:padding="7dp"
+        android:text="Yapılış Tarihi"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cookernameText"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:background="@drawable/button"
+        android:id="@+id/save"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="save"
+        android:text="Kaydet"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addDataText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

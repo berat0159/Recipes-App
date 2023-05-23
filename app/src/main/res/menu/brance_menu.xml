@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/brance_id" android:title="Anı Ekle"/>
+<item android:id="@+id/mybrance_id" android:title="Anılarım"/>
+
+</menu>
