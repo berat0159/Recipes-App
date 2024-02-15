@@ -29,8 +29,29 @@
 ## Screens and Functions
 
 ### Opening Animation and Main Screen
-![animasyon](https://github.com/berat0159/Recipes-App/assets/101979200/347954cc-075d-4590-92d3-b3973f6a8dcf)
-![image](https://github.com/berat0159/Recipes-App/assets/101979200/2a237333-5f90-48f8-868f-9a253da2004a)
+![İsimsiz video ‐ Clipchamp ile yapıldı](https://github.com/berat0159/Recipes-App/assets/101979200/3db94924-3850-40ba-ac23-9219523ed656) ![ana ekran](https://github.com/berat0159/Recipes-App/assets/101979200/dafce77b-9e94-4c57-8b40-16956685f8ed)
+
+
+### Adding a Moment
+* You can save the meals you have cooked to our database by entering the requested data.
+
+![kayıt](https://github.com/berat0159/Recipes-App/assets/101979200/3e904338-72b8-4640-845c-16205bd32aae)
+
+
+### Memories Gallery
+* You can see the data you saved here.
+
+![anı](https://github.com/berat0159/Recipes-App/assets/101979200/bff78f33-7c88-4e5c-82f3-3c60f1c01a78)
+
+### Memory Detail
+* You can view the details of the moment you recorded here.
+
+![anıiçerik](https://github.com/berat0159/Recipes-App/assets/101979200/2132681c-dc78-48ed-b8f5-50338e690b9b)
+
+
+
+
+
 
 
 
