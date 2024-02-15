@@ -9,11 +9,27 @@
 <a href="https://developer.android.com/" target="_blank" rel="noreferrer"> 
   <img src="https://www.vectorlogo.zone/logos/android/android-official.svg" alt="android" width="40" height="40"/> 
 </a>
-<a href="https://developer.android.com/" target="_blank" rel="noreferrer"> 
-  <img src="https://www.vectorlogo.zone/util/preview.html?image=/logos/mongodb/mongodb-ar21.svg" alt="android" width="40" height="40"/> 
+<a href="https://www.sqlite.org/index.html" target="_blank" rel="noreferrer"> 
+  <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-ar21.svg" alt="sqlite" width="40" height="40"/> 
 </a>       
 
+<table align="center" style="margin: 0px auto; text-align:center;">
 
+<tr>
+  <td>Recycler view</td>
+  <td>View Binding</td>
+  <td>XML</td>
+  <td>Animation</td>
+</tr>
+</table>
+<p align="center"> <a href="https://play.google.com/store/apps/details?id=com.beraterdem.tarifkupu&pli=1" target="_blank" rel="noreferrer">
+<img src="https://cloud.githubusercontent.com/assets/5692567/10923351/6b688a92-8278-11e5-9973-8ffbf3c5cc52.png" alt="playstore" width="230" height="60"/>
+
+
+## Screens and Functions
+
+### Opening Animation and Main Screen
+![animasyon](https://raw.githubusercontent.com/berat0159/Recipes-App/main/assets/101979200/19ac2ffd-afd4-41b2-b80b-0eee1a22d501.gif)
 
 
 
