@@ -37,6 +37,11 @@
 
 ![kayıt](https://github.com/berat0159/Recipes-App/assets/101979200/3e904338-72b8-4640-845c-16205bd32aae)
 
+### Recipe Detail
+* You can access the detailed recipe of the dish you chose from the home page here.
+
+![yemekdetay](https://github.com/berat0159/Recipes-App/assets/101979200/0c4d662e-ff31-466d-913d-10fe92fd5f2e)
+
 
 ### Memories Gallery
 * You can see the data you saved here.
