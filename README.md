@@ -29,7 +29,8 @@
 ## Screens and Functions
 
 ### Opening Animation and Main Screen
-![animasyon](https://raw.githubusercontent.com/berat0159/Recipes-App/main/assets/101979200/19ac2ffd-afd4-41b2-b80b-0eee1a22d501.gif)
+![animasyon](https://github.com/berat0159/Recipes-App/assets/101979200/347954cc-075d-4590-92d3-b3973f6a8dcf)
+![image](https://github.com/berat0159/Recipes-App/assets/101979200/2a237333-5f90-48f8-868f-9a253da2004a)
 
 
 
